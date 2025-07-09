@@ -1,0 +1,50 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+churn_env/
+venv/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log and database files
+*.log
+*.sqlite3
+
+# Model files and pickled artifacts
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# Streamlit and output logs
+*.tfevents.*
+logs/
+runs/
+output/
+
+# Python egg metadata and distribution files
+*.egg-info/
+dist/
+build/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pip/Poetry cache
+pip-wheel-metadata/
+__pypackages__/
+
+# Test result cache
+.cache/
+.pytest_cache/
